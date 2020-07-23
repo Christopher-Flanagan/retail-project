@@ -1,3 +1,3 @@
 # retail-project
 
-Retails application using spring boot and react
+Retail application using spring boot and react
