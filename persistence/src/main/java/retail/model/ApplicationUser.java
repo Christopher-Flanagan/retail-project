@@ -1,20 +1,18 @@
 package retail.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.NoArgsConstructor;
-import lombok.NonNull;
+import lombok.*;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Size;
 
 @Entity
-@Table
+@Table(name = "applicationuser")
 @NoArgsConstructor
 @Builder
 @AllArgsConstructor
-public class User {
+@Getter
+public class ApplicationUser {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
