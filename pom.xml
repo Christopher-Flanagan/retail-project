@@ -13,6 +13,7 @@
         <module>persistence</module>
         <module>application</module>
         <module>logging</module>
+        <module>permission</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
